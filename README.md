@@ -50,6 +50,7 @@ This game employs Java Swing for GUI rendering and Java Sockets for real-time cl
 
 ### Game State Management
 - All game logic is handled on the server side. The server maintains the game state, updating it based on client actions, and sends updates back to the clients at a specified frame rate.
+  
 - Clients send their actions to the server, which processes them to update the game state accordingly. The updated state is then sent back to the clients, ensuring a synchronized gaming experience.
 
 ### Game Mechanics
